@@ -56,7 +56,7 @@ We sure want the work to be done, until then we will try and progressively achie
 
 ## Achievements made by milestone 2
 Many things have changed since the initial discussions concerning the project. Indeed, it all seems more concrete and achievable by now. 
-Here is a little summary of the intermediary goals that were achieved:
+Here is a little summary of the intermediary goals that were achieved. They can all be found in the notebook.
 
 #### Prepare the data
 
