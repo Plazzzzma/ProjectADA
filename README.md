@@ -54,4 +54,39 @@ We sure want the work to be done, until then we will try and progressively achie
 
 * Make analysis understandable for anyone
 
+## Achievements made by milestone 2
+Many things have changed since the initial discussions concerning the project. Indeed, it all seems more concrete and achievable by now. 
+Here is a little summary of the intermediary goals that were achieved. They can all be found in the notebook.
+
+#### Prepare the data
+
+The Food Inspection and the Crime Records datasets being downloaded, we got to be more familiar with the data they contain. We got to understand how they are structured and managed to sense the information that is relevant within the scope of this project and how to deal with it. For both datasets, we have dug into the categories that we are interested in order to elaborate strategies and perceive the limitations vis-à-vis the interactive visualization we inted to establish. Concerning the sentiment analysis on the online comments, we have collected a partial dataset. The issues inherent to its nature are discussed in the notebook. 
+
+#### Visualize the data
+
+For both the Food Inspections and the Crime Records datasets, we have generated maps showing the relevant information respectively for restaurants and crime hotspots. We still have to merge them in a synthetic way. Concerning the sentiment analysis, further discussion with TAs will be required. 
+
+#### Notebook
+
+All the steps we have undertaken are shown and described in the notebook, same goes for the results we have interpreted. The next stages and further actions are described at the end of the notebook. 
+
+## A list of internal milestones up until the final report
+
+This refect how we intend to procees in order to reach our final goal: 
+
+* Our first aim is to be able to advise people where to eat in Chicago. In order to do so, we want to analyze the quality of restaurants based on inspections they have went through and their results, previous customers' opinions (Yelp) and finally their environment in which they are located (crime). 
+Through the study that appears in the notebook, we have realized that inspections did not necessarily reflect the health quality of a restaurant. In order to answer our initial question properly, we must go further than just analyzing the features provided by Chicago. Therefore, we intend to generate additional features that will help us create clusters containing restaurants of even quality. 
+
+* Moreover, the purpose of the final report is to first compare the maps obtained in milestone 2 in order to observe a spatial correlation between the crime  and the restaurants densities per district. We want to finally obtain a numerical value of their correlation. This will allow us to define the risks associated to a restaurant and the demographic questions that are related to it. It will also allow us to establish a feature related to the security of a restaurant, thus answering the initial question of the project.
+
+* Then, if possible, we would like to study the reviews and create a prestigious label for restaurants. This may be a challenge. Indeed we are waiting for TAs' input for the use of reviews. However, the low number of restaurants implies that we will have to combine the reviews by spatiality to be able to label as many restaurants as possible. 
+
+* It will then be necessary to review the inspection dataset in order to transform features into numerical values ('risk','violations', etc.) that allows quantitatively defined specifications on the quality of a restaurant. The aim is also to continue the temporal analysis we have started. It enables us to quantify the evolution of the inspection results for each restaurants over the period 2010 to 2019. 
+
+* Finally, this feature creation should lead us to unsupervised Machine Learning. We will try to spatialize the distribution of restaurants using numerical features generated to create a clustering to correctly group restaurants by their quality levels. 
+This clustering can be accompanied by the creation of a network in order to obtain a clustering that will suit us by spectral analysis.
+
+
 ## Question for TAs
+
+Discuss the issues concerning the dataset for the sentiment analysis
