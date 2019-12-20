@@ -72,7 +72,7 @@ All the steps we have undertaken are shown and described in the notebook, same g
 
 ## A list of internal milestones up until the final report
 
-This refect how we intend to procees in order to reach our final goal: 
+This refect how we intend to process in order to reach our final goal: 
 
 * Our first aim is to be able to advise people where to eat in Chicago. In order to do so, we want to analyze the quality of restaurants based on inspections they have went through and their results, previous customers' opinions (Yelp) and finally their environment in which they are located (crime). 
 Through the study that appears in the notebook, we have realized that inspections did not necessarily reflect the health quality of a restaurant. In order to answer our initial question properly, we must go further than just analyzing the features provided by Chicago. Therefore, we intend to generate additional features that will help us create clusters containing restaurants of even quality. 
@@ -83,8 +83,12 @@ Through the study that appears in the notebook, we have realized that inspection
 
 * It will then be necessary to review the inspection dataset in order to transform features into numerical values ('risk','violations', etc.) that allows quantitatively defined specifications on the quality of a restaurant. The aim is also to continue the temporal analysis we have started. It enables us to quantify the evolution of the inspection results for each restaurants over the period 2010 to 2019. 
 
-* Finally, this feature creation should lead us to unsupervised Machine Learning. We will try to spatialize the distribution of restaurants using numerical features generated to create a clustering to correctly group restaurants by their quality levels. 
-This clustering can be accompanied by the creation of a network in order to obtain a clustering that will suit us by spectral analysis.
+## Achievements for the final report
+
+We decided to present our results in the form of a datastory. It can be found right here : https://maximeco.github.io/DataStory_prADA/
+The corresponding html file is the following : Projet - prADA.html
+
+All the work that was operated behind the scenes can be found in the "Final milestone ADA" Notebook 
 
 
 ## Question for TAs
