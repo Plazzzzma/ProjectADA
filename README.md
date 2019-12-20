@@ -86,7 +86,9 @@ Through the study that appears in the notebook, we have realized that inspection
 ## Achievements for the final report
 
 We decided to present our results in the form of a datastory. It can be found right here : https://maximeco.github.io/DataStory_prADA/
+
 The corresponding html file is the following : Projet - prADA.html
+
 
 All the work that was operated behind the scenes can be found in the "Final milestone ADA" Notebook 
 
